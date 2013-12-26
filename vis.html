@@ -1,0 +1,41 @@
+<html>
+<head>
+<script type="text/javascript" src="./js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="./js/can.js"></script>
+<!--script type="text/javascript" src="./js/plot.js"></script-->
+
+<script type="text/javascript">
+window.onload=yo;
+</script>
+
+
+<style>
+#vis
+{
+	float:left;
+}
+div
+{
+	display:block;
+}
+#exec
+{
+	font-size:10px;
+}
+</style>
+
+</head>
+
+<body>
+	<canvas id="vis" width="800px" height="600px"></canvas>
+  
+	<a href="#" onclick="clicked(); return false;">start</a> |
+	<!--a href="#" onclick="clicked(); return false;">zoom in</a> |
+	<a href="#" onclick="clicked(); return false;">zoom out</a--!>
+	
+	<div id="result" ></div>
+	<div id="exec" ></div>
+	<div id="log" ></div>
+
+</body>
+</html>
