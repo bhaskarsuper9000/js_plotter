@@ -1,4 +1,4 @@
-new Point(10,20).plot(document.getElementById('vis').getContext('2d'));
+circle(20,20,20);new Point(10,20).plot(document.getElementById('vis').getContext('2d'));
 new Point(10,20).plot(document.getElementById('vis').getContext('2d'));
 new Point(10,20).plot(document.getElementById('vis').getContext('2d'));
 new Point(12,20).plot(document.getElementById('vis').getContext('2d'));

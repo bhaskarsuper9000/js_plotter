@@ -77,7 +77,7 @@ function clicked()
 		  dataType: 'script',
 		  contentType: 'text/javascript'
 		  }).done( function( data ) {
-		    alert('Yo');
+		    //alert('Yo');
 			$( '#exec' ).append(data);
 		  }).fail( function(jqXHR, textStatus) {
 		  	alert("Coudn't load js"+textStatus);
